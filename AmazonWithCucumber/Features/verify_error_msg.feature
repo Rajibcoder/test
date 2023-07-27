@@ -5,4 +5,4 @@ Given a user is on the landing page
 And he click on sign-in button
 And he enters invalid email address in the email text box
 And he click on the continue button
-Then he must see the error message - "We We cannot find an account with that email address"
+Then he must see the error message - "We cannot find an account with that email address"
