@@ -42,7 +42,7 @@ public class VerifyErrorMsgSteps {
 	@Then("he must see the error message - {string}")
 	public void he_must_see_the_error_message(String string) {
 	    String Actual = signin.checkmsg();
-	    String Expected = "We cannot find an account with that email address";
+	    String Expected = string;
 	    assertEquals(Actual, Expected);
 	    driver.quit();
 	}
